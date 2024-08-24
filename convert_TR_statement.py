@@ -8,7 +8,7 @@ import re
 import os
 
 # Input file
-file_path = '/Users/ralph/Library/Mobile Documents/com~apple~CloudDocs/Downloads/Account statement.pdf'
+file_path = '/my/path/to/Account statement.pdf'
 
 # Check if file exists
 if not os.path.exists(file_path):
