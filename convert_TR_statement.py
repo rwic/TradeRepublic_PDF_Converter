@@ -56,9 +56,6 @@ try:
     except Exception as e:
         raise ValueError(f"Error creating DataFrame: {e}")
 
-    # Looking at the dataframe
-    # print(df.to_string())
-
     # Write the DataFrame to a CSV file
     output_file = file_path + '.csv'
     try:
